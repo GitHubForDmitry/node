@@ -13,12 +13,12 @@
                             <input type="checkbox" name="completed">
                             <span>{{title}}</span>
                         {{/if}}
-
+                        {{> delete}}
                         <input type="hidden" value="{{_id}}" name="id">
-
                         <button class="btn btn-small" type="submit">Save</button>
                     </label>
                 </form>
+
             </li>
         {{/each}}
     </ul>
